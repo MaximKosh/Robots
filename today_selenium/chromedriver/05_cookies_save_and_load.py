@@ -12,7 +12,7 @@ useragent = UserAgent()
 options.add_argument(f"user-agent={useragent.opera}")
 
 url = "https://www.vk.com/"
-driver = webdriver.Chrome(executable_path=r"C:\Users\maxim\Robots\today\chromedriver\chromedriver.exe")
+driver = webdriver.Chrome(executable_path=r"C:\Users\maxim\Robots_my\today_selenium\chromedriver\chromedriver.exe")
 
 try:
     # driver.get(url=url)
